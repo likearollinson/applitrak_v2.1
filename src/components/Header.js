@@ -14,12 +14,13 @@ const Header = () => {
         <Box
             bg='blue.600'
             color='white'
+            boxShadow='2xl'
             width='100vw'
             height='33px'
             display='flex'
         >
-            <Container maxW='3xl' justifyContent='space-between'>
-                <Text fontSize='2xl'>AppliTrak</Text>
+            <Container maxW='3xl'>
+                <Text fontSize='1xl'>AppliTrak</Text>
             </Container>
             {/* <Outlet /> */}
         </Box>
